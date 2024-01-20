@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>{data.length} birthdays today</h1>
+      <h1>{people.length} birthdays today</h1>
       <List people={people} {...people} />,
       <button className="btn" onClick={() => setPeople([])}>
         clear all
